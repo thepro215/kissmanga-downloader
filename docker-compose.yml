@@ -20,7 +20,8 @@ services:
       - "5900:25900"
     environment:
       - USE_SELENIUM=3
-      - TZ=US/Pacific
+      - TZ=US/Pac
+ific
       - VNC_PASSWORD=secret
     shm_size: 1g
 
